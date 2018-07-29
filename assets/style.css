@@ -1,0 +1,48 @@
+.header {
+    height: 50vh;
+    background-image: url("headerimage.jpg");
+    background-size: cover;
+}
+#about-me {
+    height: 35vh;
+}
+
+#skills-certs {
+    background: white;
+    color: #272B30;
+
+}
+
+.ski {
+    height: 15vh;
+}
+.footer {
+    height: 25vh;
+}
+
+
+/* HELPER CLASSES */
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rnd-element {
+    border-radius: 50%;
+}
+
+.inline-text {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
