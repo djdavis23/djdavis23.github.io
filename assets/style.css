@@ -4,7 +4,7 @@
     background-size: cover;
 }
 #about-me {
-    height: 35vh;
+    /* height: 35vh; */
 }
 
 #skills-certs {
@@ -12,12 +12,24 @@
     color: #272B30;
 
 }
+.proj-tile {
+    background-image: url("proj-placeholder.png");
+    background-size: cover;
+    height: 40vh;
+}
 
-.ski {
+.buffer {
     height: 15vh;
 }
+
 .footer {
     height: 25vh;
+    background: #aaa;
+    color: #272B30;
+}
+.contact {
+    color: #272B30;
+    font-size: 3rem;
 }
 
 
@@ -36,6 +48,7 @@
 .inline-text {
     display: inline-block;
 }
+
 
 
 
