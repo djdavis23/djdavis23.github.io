@@ -18,7 +18,7 @@
 .proj-tile {
     background-image: url("proj-placeholder.png");
     background-size: cover;
-    height: 40vh;
+    height: 50vh;
 }
 
 .buffer {
