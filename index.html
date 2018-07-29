@@ -15,37 +15,40 @@
 
 <body>
     <header class="container-fluid header">
-        <div class="row">
-            <div class="col-sm-4">
-                <h1>Don Davis</h1>
-            </div>
-            <div class="col-sm-4">
-                <h1>FULL STACK WEB DEVELOPER</h1>
-            </div>
-            <div class="col-sm-4">
-                <ul>
+        <div class="row header-nav">
+            <div class="col-sm-5 offset-sm-7 nav-bucket">
+                <ul class="nav">
                     <li>
                         <a href="#skills-certs">
-                            <button type="button" class="btn btn-secondary">SKILLS</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">
-                            <button type="button" class="btn btn-secondary">PORTFOLIO</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about-me">
-                            <button type="button" class="btn btn-secondary">RESUME</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            <button type="button" class="btn btn-secondary">CONTACT</button>
-                        </a>
-                    </li>
+                            <button type="button" class="btn btn-secondary btn-sm">SKILLS</button>
+                        </a></li>
+                        <li>
+                            <a href="#portfolio">
+                                <button type="button" class="btn btn-secondary btn-sm">PORTFOLIO</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="resume.html">
+                                <button type="button" class="btn btn-secondary btn-sm">RESUME</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                <button type="button" class="btn btn-secondary btn-sm">CONTACT</button>
+                            </a>
+                        </li>
                 </ul>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 header-text">
+                <h1>Don Davis</h1>
+            </div>
+            <div class="col-sm-8 header-text">
+                <h1>FULL STACK WEB DEVELOPER</h1>
+            </div>
+        </div>
+
         </div>
     </header>
     <main class="container-fluid">
@@ -54,15 +57,15 @@
                 <img class="rnd-element" src="assets/mypicslate.jpg" height="250rem" width="250rem" alt="image placeholder">
             </div>
             <div class="col-sm-6 text-center">
-                <h1>ABOUT ME</h1>
+                <h1 class="mt-2">ABOUT ME</h1>
                 <p>Technically astute leader with 25 years of experience operating complex Department of Defense space and nuclear
                     weapon systems and managing multi-disciplined operations teams. Keen analytical thinker and savvy problem
                     solver with excellent written and oral communication skills. Two advanced degrees with course work in
                     systems engineering, object-oriented software design, database development, orbital mechanics and spacecraft
                     design. Proficient in Java and SQL. Adept at strategic planning, setting objectives, organizing teams,
                     allocating resources and meeting milestones.</p>
-                <a href="#">
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Review My Resume</button>
+                <a href="resume.html">
+                    <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Review My Resume</button>
                 </a>
             </div>
             <div class="col-sm-3 flexbox">
@@ -71,46 +74,37 @@
         </section>
         <section id="skills-certs" class="row">
             <div id="skills" class="col-sm-7 text-center">
-                <h1>SKILLS</h1>
-                <img src="assets/logojava.png" height="60rem" alt="java logo">
-                <img src="assets/Logo MySQL.png" height="60rem" alt="mySQL logo">
-                <img src="assets/logoHTML.png" height="60rem" alt="HTML 5 logo">
-                <img src="assets/logoCSS.png" height="60rem" alt="CSS logo">
+                <h1 class="mt-2">SKILLS</h1>
+                <img src="assets/logojava.png" height="65rem" alt="java logo">
+                <img src="assets/Logo MySQL.png" height="65rem" alt="mySQL logo">
+                <img src="assets/logoHTML.png" height="65rem" alt="HTML 5 logo">
+                <img src="assets/logoCSS.png" height="65rem" alt="CSS logo">
             </div>
             <div id="certs" class="col-sm-5">
-                <h1>EDUCATION</h1>
-                <ul>
-                    <li>Boise Code Works</li>
-                    <li>Air Force Institute of Technology</li>
-                    <li>Air Force Institute of Technology</li>
-                    <li>United States Air Force Academy</li>
+                <h1 class="mt-2">EDUCATION</h1>
+                <ul id="schools">
+                    <li>Immersive Full Stack Course, Boise Code Works, in progress</li>
+                    <li>M.S. Systems Engineering, Air Force Institute of Technology, 2006</li>
+                    <li>M.S. Space Operations, Air Force Institute of Technology, 2001</li>
+                    <li>B.S. Engineering Mechanics, United States Air Force Academy, 1992</li>
                 </ul>
             </div>
         </section>
-        <section id="porfolio" class="row">
+        <section id="portfolio" class="row">
             <div class="col-sm-12">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h1>PROJECTS</h1>
+                        <h1 class="mt-2">PROJECTS</h1>
                         <a href="#">
-                            <button type="button" class="btn btn-info">MY GITHUB</button>
+                            <button type="button" class="btn btn-info mb-2">MY GITHUB</button>
                         </a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3 proj-tile">
-                        <!-- <img src="assets/proj-placeholder.png" width="250rem" height="250rem" alt=""> -->
-                    </div>
-                    <div class="col-sm-3 proj-tile">
-                        <!-- <img src="assets/proj-placeholder.png" width="250rem" height="250rem" alt=""> -->
-                    </div>
-                    <div class="col-sm-3 proj-tile">
-                        <!-- <img src="assets/proj-placeholder.png" width="250rem" height="250rem" alt=""> -->
-                    </div>
-                    <div class="col-sm-3 proj-tile">
-                        <!-- <img src="assets/proj-placeholder.png" width="250rem" height="250rem" alt=""> -->
-                    </div>
-
+                    <div class="col-sm-3 proj-tile"></div>
+                    <div class="col-sm-3 proj-tile"></div>
+                    <div class="col-sm-3 proj-tile"></div>
+                    <div class="col-sm-3 proj-tile"></div>
                 </div>
             </div>
         </section>
@@ -118,18 +112,26 @@
     <footer id="contact" class="container-fluid">
         <div class="row buffer">
             <div class="col-sm-12 text-center flexbox">
-                <h2><em>If you like what you see, please contact me!</em></h2>
+                <h2>
+                    <em>If you like what you see, please contact me!</em>
+                </h2>
             </div>
         </div>
         <div class="row footer">
             <div class="col-sm-4 flexbox contact">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/don-davis-36751876" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
             <div class="col-sm-4 flexbox contact">
-                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
             <div class="col-sm-4 flexbox contact">
-                <a href="#"><i class="fas fa-phone-square"></i></a>
+                <a href="#">
+                    <i class="fas fa-phone-square"></i>
+                </a>
             </div>
 
         </div>

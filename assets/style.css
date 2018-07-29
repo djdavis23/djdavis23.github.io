@@ -3,15 +3,18 @@
     background-image: url("headerimage.jpg");
     background-size: cover;
 }
-#about-me {
-    /* height: 35vh; */
-}
 
 #skills-certs {
     background: white;
-    color: #272B30;
-
+    color: #272B30;    
 }
+#certs h1 {
+    text-align: center;
+}
+#schools li {
+    margin-left: 0;
+}
+
 .proj-tile {
     background-image: url("proj-placeholder.png");
     background-size: cover;
@@ -35,6 +38,19 @@
 
 /* HELPER CLASSES */
 
+.nav-bucket {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+.header-nav {
+    height: 40vh;
+}
+
 .flexbox {
     display: flex;
     justify-content: center;
@@ -48,8 +64,17 @@
 .inline-text {
     display: inline-block;
 }
+.header-text {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
 
 
+/* * {
+    outline: 1px solid red;
+} */
 
 
 
