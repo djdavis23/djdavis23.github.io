@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 .header {
     height: 50vh;
     background-image: url("headerimage.jpg");
