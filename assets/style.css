@@ -20,7 +20,7 @@ body{
 .proj-tile {
     background-image: url("proj-placeholder.png");
     background-size: cover;
-    height: 50vh;
+    min-height: 300px;
 }
 
 
