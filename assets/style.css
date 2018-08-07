@@ -1,8 +1,7 @@
 body{
     scroll-behavior: smooth;
 }
-.header {
-    height: 50vh;
+.header {   
     background-image: url("headerimage.jpg");
     background-size: cover;
 }
@@ -24,12 +23,8 @@ body{
     height: 50vh;
 }
 
-.buffer {
-    height: 15vh;
-}
 
 .footer {
-    height: 25vh;
     background: #aaa;
     color: #272B30;
 }
@@ -50,8 +45,8 @@ body{
     list-style-type: none;
 }
 
-.header-nav {
-    height: 40vh;
+.header-nav {    
+    min-height: 300px;
 }
 
 .flexbox {
@@ -71,7 +66,7 @@ body{
     color: white;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-start;    
 }
 
 
