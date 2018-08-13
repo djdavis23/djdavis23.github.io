@@ -9,7 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Don Davis</title>
 </head>
 
@@ -19,7 +19,7 @@
             <div class="col-sm-5 offset-sm-7 nav-bucket mt-2">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-secondary btn-sm" href="#skills-certs">SKILLS</a>
+                        <a class="btn btn-secondary btn-sm" href="#skills">SKILLS</a>
                     </li>
                     <li>
                         <a class="btn btn-secondary btn-sm" href="#portfolio">PORTFOLIO</a>
@@ -34,12 +34,12 @@
             </div>
         </div>
         <div class="row headline">
-            <div class="col-sm-3 offset-sm-1 col-xs-12 header-text">
+            <div class="col-sm-4 offset-sm-1 col-xs-12 header-text">
                 <h1>
                     <em>DON DAVIS</em>
                 </h1>
             </div>
-            <div class="col-sm-8 col-xs-12 header-text">
+            <div class="col-sm-7 col-xs-12 header-text">
                 <h1>
                     <em>WEB DEVELOPER</em>
                 </h1>
@@ -48,10 +48,10 @@
     </header>
     <main class="container-fluid">
         <section id="about-me" class="row">
-            <div class="col-sm-3 flexbox">
-                <img class="rnd-element mt-2 mb-2" src="assets/mypicslate.jpg" width="80%" alt="image placeholder">
+            <div class="col-md-3 col-xs-12 flexbox">
+                <img class="rnd-element mt-2 mb-2" src="../images/mypicslate.jpg" width="60%" alt="image placeholder">
             </div>
-            <div class="col-sm-6 text-center">
+            <div class="col-md-6 col-xs-12 text-center">
                 <h2 class="mt-2">ABOUT ME</h2>
                 <p>Technically astute leader with 25 years of experience operating complex Department of Defense space and nuclear
                     weapon systems and managing multi-disciplined operations teams. Keen analytical thinker and savvy problem
@@ -61,26 +61,45 @@
                     allocating resources and meeting milestones.</p>
                 <a class="btn btn-primary btn-lg btn-block mb-2" href="resume.html">Review My Resume</a>
             </div>
-            <div class="col-sm-3 flexbox">
-                <img class="rnd-element mt-2 mb-2" src="assets/AFLogoslate.jpg" width="80%" alt="United States Air Force Logo">
+            <div class="col-md-3 col-xs-12 flexbox content-desktop">
+                <img class="rnd-element mt-2 mb-2" src="../images/AFLogoslate.jpg" width="60%" alt="United States Air Force Logo">
             </div>
         </section>
-        <section id="skills-certs" class="row">
-            <div id="skills" class="col-sm-7 text-center">
-                <h2 class="mt-2">SKILLS</h2>
-                <img src="assets/logojava.png" height="65" alt="java logo">
-                <img src="assets/LogoMySQL.png" height="65" alt="mySQL logo">
-                <img src="assets/logoHTML.png" height="65" alt="HTML 5 logo">
-                <img src="assets/logoCSS.png" height="65" alt="CSS logo">
+        <section class="row skills-certs">
+            <div id="skills" class="col-md-6 col-xs-12 text-center">
+                <h2 class="mt-3">SKILLS</h2>
+                <div class="icons">
+                    <img src="../images/logojava.png" height="75" alt="java logo">
+                    <img src="../images/LogoMySQL.png" height="75" alt="mySQL logo">
+                    <img src="../images/logoHTML.png" height="75" alt="HTML 5 logo">
+                    <img src="../images/logoCSS.png" height="75" alt="CSS logo">
+                    <img src="../images/logojs.png" height="75" alt="JS logo">
+                    <img src="../images/Git-Icon.png" height="75" alt="Git logo">
+                </div>
             </div>
-            <div id="certs" class="col-sm-5">
-                <h2 class="mt-2">EDUCATION</h2>
-                <ul id="schools">
+            <div class="col-md-6 col-xs-12">
+                <h2 class="mt-3">EDUCATION</h2>
+                <div class="row">
+                    <div class="col-md-4 flexbox">
+                        <div class="mb-3">
+                            <img src="../images/boisecw.png" height="170" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 flexbox">
+                        <img src="../images/afit.png" height="100" alt="">
+                    </div>
+                    <div class="col-md-4 flexbox">
+                        <img src="../images/usafa.png" height="100" alt="">
+                    </div>
+                </div>
+
+                <!-- <ul id="schools">
                     <li>Immersive Full Stack Course, Boise Code Works, in progress</li>
                     <li>M.S. Systems Engineering, Air Force Institute of Technology, 2006</li>
                     <li>M.S. Space Operations, Air Force Institute of Technology, 2001</li>
                     <li>B.S. Engineering Mechanics, United States Air Force Academy, 1992</li>
-                </ul>
+                </ul> -->
             </div>
         </section>
         <section id="portfolio" class="row">
@@ -92,8 +111,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3 proj-tile"></div>
-                    <div class="col-sm-3 proj-tile"></div>
+                    <div id="Air2Air" class="col-sm-3 proj-tile">
+                        <h4>
+                            <a href="https://djdavis23.github.io/Air2Air-Combat/">Air2Air-Combat</a>
+                        </h4>
+                        <p>A simple game to exercise dynamic HTML/CSS updates with Javascript</p>
+                    </div>
+                    <div id="d2tunes" class="col-sm-3 proj-tile">
+                        <h4>
+                            <a href="https://djdavis23.github.io/Music-Is-Fun/">d2Tunes</a>
+                        </h4>
+                        <p>A music sampling site utilizing iTunes. This was an exercise in the MVC architecture and styling
+                            with Bootstrap.</p>
+                    </div>
                     <div class="col-sm-3 proj-tile"></div>
                     <div class="col-sm-3 proj-tile"></div>
                 </div>

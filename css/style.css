@@ -2,7 +2,7 @@ body{
     scroll-behavior: smooth;
 }
 .header {   
-    background-image: url("../../images/headerimage.jpg");
+    background-image: url("../images/headerimage.jpg");
     background-size: cover;
 }
 
