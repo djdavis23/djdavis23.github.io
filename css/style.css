@@ -6,6 +6,11 @@ body{
     background-size: cover;
 }
 
+.headline h1 {
+    font-style: italic;
+    text-shadow: 2px 2px 1px green;
+}
+
 .skills-certs {
     background: white;
     color: rgba(39,43,48,1);    
@@ -21,6 +26,19 @@ body{
     background-image: url("../images/proj-placeholder.png");
     background-size: cover;
     min-height: 300px;
+    outline: 1px solid white;
+}
+
+#Inspire {
+    background-image: url("../images/inspire.jpg");
+    background-size: cover;
+    min-height: 300px;
+    color: rgba(0,0,0,0)
+}
+
+#Inspire:hover {
+    background: rgba(255, 255, 255, 0.76);
+    color: rgba(0,0,0,1);
 }
 
 #Air2Air {
@@ -67,6 +85,8 @@ body{
 
 .nav {
     list-style-type: none;
+    position: fixed;
+    z-index: +100
 }
 
 .header-nav {    
