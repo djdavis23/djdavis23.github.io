@@ -2,8 +2,13 @@ body{
     scroll-behavior: smooth;
 }
 .header {   
-    background-image: url("../../images/headerimage.jpg");
+    background-image: url("headerimage.jpg");
     background-size: cover;
+}
+
+.headline h1 {
+    font-style: italic;
+    text-shadow: 2px 2px 1px green;
 }
 
 .skills-certs {
@@ -18,13 +23,26 @@ body{
 }
 
 .proj-tile {
-    background-image: url("../images/proj-placeholder.png");
+    background-image: url("proj-placeholder.png");
     background-size: cover;
     min-height: 300px;
+    outline: 1px solid white;
+}
+
+#Inspire {
+    background-image: url("inspire.jpg");
+    background-size: cover;
+    min-height: 300px;
+    color: rgba(0,0,0,0)
+}
+
+#Inspire:hover {
+    background: rgba(255, 255, 255, 0.76);
+    color: rgba(0,0,0,1);
 }
 
 #Air2Air {
-    background-image: url("../images/Air2Airimg.jpg");
+    background-image: url("Air2Airimg.jpg");
     background-size: cover;
     min-height: 300px;
     color: rgba(0,0,0,0)
@@ -36,13 +54,25 @@ body{
 }
 
 #d2tunes {
-    background-image: url("../images/dtunesimg.jpg");
+    background-image: url("dtunesimg.jpg");
     background-size: cover;
     min-height: 300px;
     color: rgba(0,0,0,0);
 }
 
 #d2tunes:hover {
+    background: rgba(255, 255, 255, 0.76);
+    color: rgba(0,0,0,1);
+}
+
+#battle-cards {
+    background-image: url("battle-cards2.jpg");
+    background-size: cover;
+    min-height: 300px;
+    color: rgba(0,0,0,0);
+}
+
+#battle-cards:hover {
     background: rgba(255, 255, 255, 0.76);
     color: rgba(0,0,0,1);
 }
@@ -67,6 +97,8 @@ body{
 
 .nav {
     list-style-type: none;
+    position: fixed;
+    z-index: +100
 }
 
 .header-nav {    
