@@ -7,7 +7,7 @@ body{
 }
 
 .headline h1 {
-    font-style: italic;
+    font-style: italic;    
     text-shadow: 2px 2px 1px green;
 }
 
@@ -25,15 +25,21 @@ body{
 .proj-tile {
     background-image: url("proj-placeholder.png");
     background-size: cover;
-    min-height: 300px;
+    min-height: 350px;
+    color: rgba(0,0,0,0);
     outline: 1px solid white;
+}
+
+.proj-tile:hover {
+    background: rgba(255, 255, 255, 0.76);
+    color: rgba(0,0,0,1);
 }
 
 #Inspire {
     background-image: url("inspire.jpg");
-    background-size: cover;
+    /* background-size: cover;
     min-height: 300px;
-    color: rgba(0,0,0,0)
+    color: rgba(0,0,0,0); */
 }
 
 #Inspire:hover {
@@ -43,9 +49,9 @@ body{
 
 #Air2Air {
     background-image: url("Air2Airimg.jpg");
-    background-size: cover;
+    /* background-size: cover;
     min-height: 300px;
-    color: rgba(0,0,0,0)
+    color: rgba(0,0,0,0) */
 }
 
 #Air2Air:hover {
@@ -55,9 +61,9 @@ body{
 
 #d2tunes {
     background-image: url("dtunesimg.jpg");
-    background-size: cover;
+    /* background-size: cover;
     min-height: 300px;
-    color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0); */
 }
 
 #d2tunes:hover {
@@ -67,12 +73,24 @@ body{
 
 #battle-cards {
     background-image: url("battle-cards2.jpg");
-    background-size: cover;
+    /* background-size: cover;
     min-height: 300px;
-    color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0); */
 }
 
 #battle-cards:hover {
+    background: rgba(255, 255, 255, 0.76);
+    color: rgba(0,0,0,1);
+}
+
+#kanban {
+    background-image: url("kanban.png");
+    /* background-size: cover;
+    min-height: 300px;
+    color: rgba(0,0,0,0) */
+}
+
+#kanban:hover {
     background: rgba(255, 255, 255, 0.76);
     color: rgba(0,0,0,1);
 }
