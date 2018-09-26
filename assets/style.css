@@ -126,9 +126,15 @@ body{
 .flexbox {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
+.flexbox-vert {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+}
 .icons {
     display: flex;
     justify-content: space-evenly;
@@ -150,9 +156,19 @@ body{
     justify-content: flex-start;    
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
     .content-desktop{
         display: none;
+    }
+    .proj-tile{
+        min-height: 280px;
+    }
+    
+}
+
+@media screen and (min-width: 1199px){
+    .proj-tile{
+        min-height: 400px;
     }
 }
 
