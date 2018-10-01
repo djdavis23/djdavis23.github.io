@@ -18,6 +18,11 @@ body{
 .skills-certs h2 {
     text-align: center;
 }
+
+#ed {
+    border-left: 1px solid black;
+}
+
 #schools li {
     margin-left: 0;
 }
