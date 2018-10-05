@@ -19,9 +19,9 @@ body{
     text-align: center;
 }
 
-#ed {
+/* #ed {
     border-left: 1px solid black;
-}
+} */
 
 #schools li {
     margin-left: 0;
@@ -173,14 +173,17 @@ body{
     justify-content: flex-start;    
 }
 
-@media screen and (max-width: 768px){
-    .content-desktop{
-        display: none;
-    }
+@media screen and (max-width: 768px){    
     .proj-tile{
         min-height: 280px;
     }
     
+}
+
+@media screen and (max-width: 992px){
+    .content-desktop{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1199px){
