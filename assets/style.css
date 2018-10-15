@@ -112,6 +112,11 @@ body{
     color: rgba(0,0,0,1);
 }
 
+#footer-banner {
+    background-image: url("footerimage2.jpg");
+    background-size: cover;
+    min-height: 150px;
+}
 
 .footer {
     background: #aaa;
