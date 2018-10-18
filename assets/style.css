@@ -30,7 +30,7 @@ body{
 .proj-tile {
     background-image: url("proj-placeholder.png");
     background-size: cover;
-    min-height: 350px;
+    height: 300px;
     color: rgba(0,0,0,0);
     outline: 1px solid white;
 }
@@ -42,75 +42,181 @@ body{
 
 #Inspire {
     background-image: url("inspire.jpg");
-    /* background-size: cover;
-    min-height: 300px;
+    background-size: cover;
+    /* min-height: 300px;
     color: rgba(0,0,0,0); */
 }
 
-#Inspire:hover {
-    background: rgba(255, 255, 255, 0.76);
+#inspire-description {
+    background: rgba(255, 255, 255, 0.6);
     color: rgba(0,0,0,1);
+    height: 100%;
+    width: 100%;    
+    margin-top: 350px;
+    overflow: hidden;
+    padding-left: 15px;
+    -webkit-transition: margin-top 1s;
+    transition: margin-top 1s;    
 }
+
+#inspire-description:hover {
+    margin-top: 0;
+    color: rgba(0,0,0,1);
+   
+}
+
+/* #Inspire:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0,0,0,1);
+} */
 
 #Air2Air {
     background-image: url("Air2Airimg.jpg");
-    /* background-size: cover;
-    min-height: 300px;
+    background-size: cover;
+    /* min-height: 300px;
     color: rgba(0,0,0,0) */
 }
 
-#Air2Air:hover {
+/* #air2air-description {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0,0,0,1);
+    height: 100%;
+    width: 100%;    
+    margin-top: 350px;
+    overflow: hidden;
+    padding-left: 15px;
+    -webkit-transition: margin-top 1s;
+    transition: margin-top 1s;    
+}
+
+#air2air-description:hover {
+    margin-top: 0;
+    color: rgba(0,0,0,1);
+   
+} */
+
+/* #Air2Air:hover {
     background: rgba(255, 255, 255, 0.76);
     color: rgba(0,0,0,1);
-}
+} */
 
 #d2tunes {
     background-image: url("dtunesimg.jpg");
-    /* background-size: cover;
-    min-height: 300px;
+    background-size: cover;
+    /* min-height: 300px;
     color: rgba(0,0,0,0); */
 }
 
-#d2tunes:hover {
-    background: rgba(255, 255, 255, 0.76);
+/* #d2tunes-description {
+    background: rgba(255, 255, 255, 0.8);
     color: rgba(0,0,0,1);
+    height: 100%;
+    width: 100%;    
+    margin-top: 350px;
+    overflow: hidden;
+    padding-left: 15px;
+    -webkit-transition: margin-top 1s;
+    transition: margin-top 1s;    
 }
+
+#d2tunes-description:hover {
+    margin-top: 0;
+    color: rgba(0,0,0,1);
+   
+} */
 
 #battle-cards {
     background-image: url("battle-cards2.jpg");
-    /* background-size: cover;
-    min-height: 300px;
+    background-size: cover;
+    /* min-height: 300px;
     color: rgba(0,0,0,0); */
 }
 
+.card-description {
+    background: rgba(255, 255, 255, 0.85);
+    color: rgba(0,0,0,0);
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;  
+    margin-left: -15px;  
+    overflow: hidden;
+    padding-left: 15px;
+    -webkit-transition: height 1s;
+    transition: height 1s;    
+}
+
+.card-description:hover {
+    /* margin-top: 0; */
+    height: 100%;
+    color: rgba(0,0,0,1);
+   
+}
+/* 
 #battle-cards:hover {
     background: rgba(255, 255, 255, 0.76);
     color: rgba(0,0,0,1);
-}
+} */
 
 #kanban {
     background-image: url("kanban.png");
-    /* background-size: cover;
-    min-height: 300px;
+    background-size: cover;
+    /* min-height: 300px;
     color: rgba(0,0,0,0) */
+} 
+
+/* #kanban-description {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0,0,0,1);
+    height: 100%;
+    width: 100%;    
+    margin-top: 350px;
+    overflow: hidden;
+    padding-left: 15px;
+    -webkit-transition: margin-top 1s;
+    transition: margin-top 1s;    
 }
 
+#kanban-description:hover {
+    margin-top: 0;
+    color: rgba(0,0,0,1);
+   
+}
+/* 
 #kanban:hover {
     background: rgba(255, 255, 255, 0.76);
     color: rgba(0,0,0,1);
-}
+} */ 
 
 #bullutin {
     background-image: url("bullutin.png");
-    /* background-size: cover;
-    min-height: 300px;
+    background-size: cover;
+    /* min-height: 300px;
     color: rgba(0,0,0,0) */
 }
 
-#bullutin:hover {
+/* #bullutin-description {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0,0,0,1);
+    height: 100%;
+    width: 100%;    
+    margin-top: 350px;
+    overflow: hidden;
+    padding-left: 15px;
+    -webkit-transition: margin-top 1s;
+    transition: margin-top 1s;    
+}
+
+#bullutin-description:hover {
+    margin-top: 0;
+    color: rgba(0,0,0,1);
+   
+} */
+
+/* #bullutin:hover {
     background: rgba(255, 255, 255, 0.76);
     color: rgba(0,0,0,1);
-}
+} */
 
 #footer-banner {
     background-image: url("footerimage2.jpg");
