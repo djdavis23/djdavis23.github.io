@@ -195,6 +195,13 @@ body{
     color: rgba(0,0,0,0) */
 }
 
+#keeprd2 {
+    background-image: url("keepr.png");
+    background-size: cover;
+    /* min-height: 300px;
+    color: rgba(0,0,0,0) */
+}
+
 /* #bullutin-description {
     background: rgba(255, 255, 255, 0.8);
     color: rgba(0,0,0,1);
