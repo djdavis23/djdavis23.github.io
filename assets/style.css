@@ -19,10 +19,6 @@ body{
     text-align: center;
 }
 
-/* #ed {
-    border-left: 1px solid black;
-} */
-
 #schools li {
     margin-left: 0;
 }
@@ -42,9 +38,7 @@ body{
 
 #Inspire {
     background-image: url("inspire.jpg");
-    background-size: cover;
-    /* min-height: 300px;
-    color: rgba(0,0,0,0); */
+    background-size: cover;   
 }
 
 #inspire-description {
@@ -65,65 +59,15 @@ body{
    
 }
 
-/* #Inspire:hover {
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(0,0,0,1);
-} */
-
 #Air2Air {
     background-image: url("Air2Airimg.jpg");
-    background-size: cover;
-    /* min-height: 300px;
-    color: rgba(0,0,0,0) */
+    background-size: cover;   
 }
-
-/* #air2air-description {
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(0,0,0,1);
-    height: 100%;
-    width: 100%;    
-    margin-top: 350px;
-    overflow: hidden;
-    padding-left: 15px;
-    -webkit-transition: margin-top 1s;
-    transition: margin-top 1s;    
-}
-
-#air2air-description:hover {
-    margin-top: 0;
-    color: rgba(0,0,0,1);
-   
-} */
-
-/* #Air2Air:hover {
-    background: rgba(255, 255, 255, 0.76);
-    color: rgba(0,0,0,1);
-} */
 
 #d2tunes {
     background-image: url("dtunesimg.jpg");
     background-size: cover;
-    /* min-height: 300px;
-    color: rgba(0,0,0,0); */
 }
-
-/* #d2tunes-description {
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(0,0,0,1);
-    height: 100%;
-    width: 100%;    
-    margin-top: 350px;
-    overflow: hidden;
-    padding-left: 15px;
-    -webkit-transition: margin-top 1s;
-    transition: margin-top 1s;    
-}
-
-#d2tunes-description:hover {
-    margin-top: 0;
-    color: rgba(0,0,0,1);
-   
-} */
 
 #battle-cards {
     background-image: url("battle-cards2.jpg");
@@ -147,83 +91,24 @@ body{
 }
 
 .proj-tile:hover .card-description {
-    /* margin-top: 0; */
     height: 100%;
-    color: rgba(0,0,0,1);
-   
+    color: rgba(0,0,0,1);   
 }
-/* 
-#battle-cards:hover {
-    background: rgba(255, 255, 255, 0.76);
-    color: rgba(0,0,0,1);
-} */
 
 #kanban {
     background-image: url("kanban.png");
     background-size: cover;
-    /* min-height: 300px;
-    color: rgba(0,0,0,0) */
 } 
-
-/* #kanban-description {
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(0,0,0,1);
-    height: 100%;
-    width: 100%;    
-    margin-top: 350px;
-    overflow: hidden;
-    padding-left: 15px;
-    -webkit-transition: margin-top 1s;
-    transition: margin-top 1s;    
-}
-
-#kanban-description:hover {
-    margin-top: 0;
-    color: rgba(0,0,0,1);
-   
-}
-/* 
-#kanban:hover {
-    background: rgba(255, 255, 255, 0.76);
-    color: rgba(0,0,0,1);
-} */ 
 
 #bullutin {
     background-image: url("bullutin.png");
-    background-size: cover;
-    /* min-height: 300px;
-    color: rgba(0,0,0,0) */
+    background-size: cover;    
 }
 
 #keeprd2 {
     background-image: url("keepr.png");
     background-size: cover;
-    /* min-height: 300px;
-    color: rgba(0,0,0,0) */
 }
-
-/* #bullutin-description {
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(0,0,0,1);
-    height: 100%;
-    width: 100%;    
-    margin-top: 350px;
-    overflow: hidden;
-    padding-left: 15px;
-    -webkit-transition: margin-top 1s;
-    transition: margin-top 1s;    
-}
-
-#bullutin-description:hover {
-    margin-top: 0;
-    color: rgba(0,0,0,1);
-   
-} */
-
-/* #bullutin:hover {
-    background: rgba(255, 255, 255, 0.76);
-    color: rgba(0,0,0,1);
-} */
 
 #footer-banner {
     background-image: url("footerimage2.jpg");
